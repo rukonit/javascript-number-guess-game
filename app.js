@@ -25,6 +25,6 @@ while(parseInt(guess) !== targetNum) {
     
 }
 
-if (guess === targetNum) {
+if (parseInt(guess) === targetNum) {
     alert(`Congrats! you have guessed it with ${count} ${count > 1 ? 'attemts' : 'attempt'}`)
 }
